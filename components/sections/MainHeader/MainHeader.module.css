@@ -12,7 +12,7 @@
 }
 
 .content {
-    @apply h-1/2 w-full mt-64 md:mt-80;
+    @apply h-1/2 w-full mt-40 md:mt-80;
 }
 
 .name {
@@ -25,7 +25,7 @@
 
 
 .name__mobile {
-    @apply mb-16 md:hidden;
+    @apply mb-12 md:hidden;
 }
 
 .name__mobile span {
@@ -33,5 +33,6 @@
 }
 
 .description {
-    @apply bg-black p-6 h-full w-10/12;
+    @apply bg-black p-6 w-10/12;
+    height: 100rem;
 }

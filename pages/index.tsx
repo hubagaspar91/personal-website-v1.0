@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { ReactElement } from 'react';
 import MainHeader from '../components/sections/MainHeader/MainHeader';
+import MainWork from '../components/sections/MainWork/MainWork';
 
 export default function Home(): ReactElement {
   return (
@@ -11,6 +12,7 @@ export default function Home(): ReactElement {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainHeader />
+      <MainWork />
     </div>
   );
 }

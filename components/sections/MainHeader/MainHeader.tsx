@@ -1,12 +1,14 @@
 import style from './MainHeader.module.css';
+import utilsStyle from '../../../styles/utils.module.css';
 import TitleMain from '../../typography/TitleMain/TitleMain';
 import { ReactElement } from 'react';
 import Container from '../../layout/Container/Container';
 import BodyText from '../../typography/BodyText/BodyText';
+import classNames from 'classnames';
 
 function MainHeader(): ReactElement {
   return (
-    <div className={style.root}>
+    <div className={classNames(style.root, utilsStyle.section)}>
       <video className={style.video} autoPlay muted loop>
         <source src="/video.webm" type="video/webm" />
       </video>
