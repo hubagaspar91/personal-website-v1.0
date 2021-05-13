@@ -1,0 +1,37 @@
+.root {
+    @apply h-screen overflow-hidden relative;
+    min-height: 50rem;
+}
+
+.video {
+    @apply absolute top-1/2 left-1/2
+    min-h-screen max-w-none xl:w-screen;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    max-width: none !important;
+}
+
+.content {
+    @apply h-1/2 w-full mt-64 md:mt-80;
+}
+
+.name {
+    @apply mb-16 hidden md:block;
+}
+
+.name span {
+    @apply bg-primary px-6;
+}
+
+
+.name__mobile {
+    @apply mb-16 md:hidden;
+}
+
+.name__mobile span {
+    @apply bg-primary px-6;
+}
+
+.description {
+    @apply bg-black p-6 h-full w-10/12;
+}

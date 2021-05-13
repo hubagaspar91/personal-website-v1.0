@@ -1,0 +1,7 @@
+.root {
+    @apply w-full max-w-screen-2xl my-0 mx-auto;
+}
+
+.content {
+    @apply w-9/12 h-full;
+}
