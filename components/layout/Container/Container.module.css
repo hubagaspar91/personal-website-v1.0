@@ -1,5 +1,5 @@
 .root {
-    @apply w-full max-w-screen-2xl my-0 mx-auto;
+    @apply w-full max-w-screen-xl mx-auto relative;
 }
 
 .content {

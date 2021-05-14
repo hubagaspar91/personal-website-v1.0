@@ -1,0 +1,21 @@
+.root {
+    @apply w-full;
+}
+
+.image {
+    @apply w-7/12 mx-auto;
+}
+
+.titleContainer {
+    @apply absolute left-6 top-1/4;
+}
+
+.title {
+    @apply text-body bg-black px-6 font-normal;
+}
+
+.titleOutline {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}

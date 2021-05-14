@@ -1,3 +1,3 @@
 .root {
-    @apply font-normal text-sm text-body md:text-xl;
+    @apply font-normal text-sm text-body md:text-lg;
 }

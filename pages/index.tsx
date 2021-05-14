@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { ReactElement } from 'react';
 import MainHeader from '../components/sections/MainHeader/MainHeader';
 import MainWork from '../components/sections/MainWork/MainWork';
+import Lettuce from '../components/misc/Lettuce/Lettuce';
 
 export default function Home(): ReactElement {
   return (
@@ -13,6 +14,7 @@ export default function Home(): ReactElement {
       </Head>
       <MainHeader />
       <MainWork />
+      <Lettuce />
     </div>
   );
 }

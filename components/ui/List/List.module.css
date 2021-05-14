@@ -1,0 +1,12 @@
+.root {
+    @apply list-none;
+}
+
+.root li:not(:last-child) {
+    @apply mb-6;
+}
+
+.root li:before {
+    content: '→';
+    @apply text-primary mr-4;
+}

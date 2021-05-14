@@ -6,7 +6,7 @@ class UIStore {
   constructor() {
     makeObservable(this, {
       mobileMenuOpen: observable,
-      setMobileMenuOpen: action,
+      setMobileMenuOpen: action
     });
   }
 

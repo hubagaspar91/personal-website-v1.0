@@ -1,0 +1,29 @@
+.root {
+    @apply list-none flex flex-col justify-center w-full;
+}
+
+.item {
+    @apply flex flex-col justify-center w-full;
+}
+
+.item:not(:last-child) {
+    @apply mb-16;
+}
+
+.itemHeader {
+    @apply border-b border-body w-full px-6
+    flex justify-between items-center;
+}
+
+.itemHeaderIcon {
+    @apply text-xl text-body md:text-2xl;
+}
+
+.itemBody {
+    @apply px-6 max-h-0 overflow-hidden;
+    transition: all 0.3s linear;
+}
+
+.itemBody__open {
+    @apply pt-16 max-h-screen;
+}
