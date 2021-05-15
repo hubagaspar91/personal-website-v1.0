@@ -20,3 +20,11 @@
 body {
   @apply bg-black;
 }
+
+p:not(:last-child) {
+  @apply mb-4;
+}
+
+a {
+  @apply text-primary underline;
+}

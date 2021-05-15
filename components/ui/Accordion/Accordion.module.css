@@ -21,9 +21,9 @@
 
 .itemBody {
     @apply px-6 max-h-0 overflow-hidden;
-    transition: all 0.3s linear;
 }
 
 .itemBody__open {
     @apply pt-16 max-h-screen;
+    transition: all 0.3s linear;
 }

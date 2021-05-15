@@ -3,6 +3,7 @@ import { ReactElement } from 'react';
 import MainHeader from '../components/sections/MainHeader/MainHeader';
 import MainWork from '../components/sections/MainWork/MainWork';
 import Lettuce from '../components/misc/Lettuce/Lettuce';
+import MainAbout from '../components/sections/MainAbout/MainAbout';
 
 export default function Home(): ReactElement {
   return (
@@ -15,6 +16,7 @@ export default function Home(): ReactElement {
       <MainHeader />
       <MainWork />
       <Lettuce />
+      <MainAbout />
     </div>
   );
 }

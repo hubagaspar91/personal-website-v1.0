@@ -4,7 +4,6 @@ import { ReactElement } from 'react';
 import List from '../../ui/List/List';
 import Accordion from '../../ui/Accordion/Accordion';
 import BodyText from '../../typography/BodyText/BodyText';
-import Lettuce from '../../misc/Lettuce/Lettuce';
 
 function MainWork(): ReactElement {
   return (
@@ -35,6 +34,15 @@ function MainWork(): ReactElement {
                 <u>Express</u>, <u>Mongodb</u>, <u>Postgres</u>,{' '}
                 <u>Strapi CMS</u>, <u>Netlify</u>, <u>Docker</u>,{' '}
                 <u>docker-compose</u>, <u>Github actions</u>, etc.
+              </li>
+              <li className={style.linkListElement}>
+                <a
+                  target="_blank"
+                  href="https://cleverclipstudios.com/en-ch/"
+                  rel="noreferrer"
+                >
+                  cleverclipstudios.com
+                </a>
               </li>
             </List>
           </Accordion.ItemBody>
@@ -93,6 +101,15 @@ function MainWork(): ReactElement {
                 , <u>Webpack</u>, <u>.NET Core</u>, <u>C#</u>, <u>Python</u>,{' '}
                 <u>SQL</u>
               </li>
+              <li className={style.linkListElement}>
+                <a
+                  target="_blank"
+                  href="https://www.yusp.com/"
+                  rel="noreferrer"
+                >
+                  yusp.com
+                </a>
+              </li>
             </List>
           </Accordion.ItemBody>
         </Accordion.Item>
@@ -129,12 +146,27 @@ function MainWork(): ReactElement {
                 Hotstar, India&#39;s largest video streaming platform.
               </li>
               <li>
-                During this time, Hotstar broke several online streaming world
-                records
+                During this time (and since then too), Hotstar broke{' '}
+                <a
+                  target="_blank"
+                  href="https://techcrunch.com/2019/05/12/hotstar-disneys-indian-streaming-service-sets-new-global-record-for-live-viewership/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAID4AlxMgNXscF5F4aryrokn2fE0GQZ6QKSoOGpjUbocyaeLJk45j-Qv3p2xWDfiAlSTz8XKF-ksZekPo3vWnticcT9P8ueLNh0TTH3sURwtdIzEl7bNSoFt3jE0UQfdATSYd8_OkfGLKYMkN0jqqDSIFZ-ebB64lCvcjROu6nrw"
+                  rel="noreferrer"
+                >
+                  several online streaming world records
+                </a>
               </li>
               <li>
                 Technologies used: <u>Javascript</u>, <u>Python</u>, <u>bash</u>
                 , <u>SQL</u>
+              </li>
+              <li className={style.linkListElement}>
+                <a
+                  target="_blank"
+                  href="https://www.yusp.com/"
+                  rel="noreferrer"
+                >
+                  yusp.com
+                </a>
               </li>
             </List>
           </Accordion.ItemBody>
