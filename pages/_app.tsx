@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { ReactElement } from 'react';
 import { Provider } from 'mobx-react';
 import initializeStore from '../stores';
+import Footer from '../components/sections/Footer/Footer';
 
 function MyApp({
   Component,
@@ -15,6 +16,7 @@ function MyApp({
   return (
     <Provider {...initializeStore()}>
       <Component {...pageProps} />
+      <Footer />
     </Provider>
   );
 }

@@ -1,0 +1,40 @@
+.root {
+    @apply mb-0;
+}
+
+.input {
+    @apply bg-black block w-full border-b border-body px-6;
+}
+
+.textarea {
+    @apply h-80;
+    resize: none;
+}
+
+.input:not(:last-child) {
+    @apply mb-16;
+}
+
+.textarea:focus, .input:focus {
+    @apply border-primary;
+}
+
+.submit {
+    transition: color 0.3s linear;
+    @apply text-black bg-primary px-6 py-1 h-72
+    flex items-start relative overflow-hidden;
+}
+
+.submit:before {
+    content: "Submit";
+    transition: top 0.3s linear;
+    @apply absolute w-full h-full bg-black left-0 -top-72;
+}
+
+.submit:hover {
+    @apply text-primary;
+}
+
+.submit:hover:before {
+    @apply top-0;
+}
