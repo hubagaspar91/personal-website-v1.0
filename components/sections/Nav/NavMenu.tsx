@@ -7,7 +7,6 @@ import Container from '../../layout/Container/Container';
 
 function NavMenu({ UIStore }: { UIStore?: UIStore }): ReactElement {
   useEffect(() => {
-    console.log(UIStore.mobileMenuOpen);
     if (UIStore.mobileMenuOpen) {
       document.body.style.overflow = 'hidden';
     } else {

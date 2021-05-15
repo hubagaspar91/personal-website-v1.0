@@ -3,7 +3,7 @@
 }
 
 .button {
-    @apply text-primary
+    @apply text-primary bg-black
     px-6 h-24
     flex items-center justify-center;
 }
