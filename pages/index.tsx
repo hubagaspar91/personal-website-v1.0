@@ -4,6 +4,8 @@ import MainHeader from '../components/sections/MainHeader/MainHeader';
 import MainWork from '../components/sections/MainWork/MainWork';
 import Lettuce from '../components/misc/Lettuce/Lettuce';
 import MainAbout from '../components/sections/MainAbout/MainAbout';
+import MainSlideshow from '../components/sections/MainSlideshow/MainSlideshow';
+import MainContact from '../components/sections/MainContact/MainContact';
 
 export default function Home(): ReactElement {
   return (
@@ -17,6 +19,8 @@ export default function Home(): ReactElement {
       <MainWork />
       <Lettuce />
       <MainAbout />
+      <MainSlideshow />
+      <MainContact />
     </div>
   );
 }

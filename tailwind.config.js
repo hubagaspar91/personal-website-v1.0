@@ -10,7 +10,11 @@ module.exports = {
       body: '#C4C4C4',
       black: '#000'
     },
-    extend: {}
+    extend: {
+      width: {
+        '1/10': '10%'
+      }
+    }
   },
   variants: {
     extend: {}
