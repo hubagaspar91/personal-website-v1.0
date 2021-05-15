@@ -1,0 +1,51 @@
+.root {
+    @apply fixed top-0 right-0 h-24 z-10;
+}
+
+.button {
+    @apply text-primary
+    px-6 h-24
+    flex items-center justify-center;
+}
+
+.button:before {
+    content: "Close";
+    @apply h-24 w-screen
+    fixed left-full top-0
+    bg-primary text-black
+    px-6
+    flex justify-end items-center;
+    transition: left 0.3s linear;
+}
+
+.button__clicked:before {
+    transition-delay: 0.3s;
+    @apply left-0;
+}
+
+.menu {
+    @apply fixed z-10
+    w-screen h-screen
+    top-0 left-full
+    bg-black;
+    transition: left 0.3s linear;
+}
+
+.menu__open {
+    @apply left-0;
+}
+
+.menuContainer {
+    @apply w-full h-full flex items-center
+    text-body text-5xl;
+}
+
+.menuList {
+    @apply w-full h-full
+    flex flex-col justify-center
+    list-none;
+}
+
+.menuListItem:not(:last-child) {
+    @apply mb-12;
+}

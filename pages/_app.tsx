@@ -5,6 +5,8 @@ import { ReactElement } from 'react';
 import { Provider } from 'mobx-react';
 import initializeStore from '../stores';
 import Footer from '../components/sections/Footer/Footer';
+import NavButton from '../components/sections/Nav/NavButton';
+import NavMenu from '../components/sections/Nav/NavMenu';
 
 function MyApp({
   Component,
@@ -15,6 +17,8 @@ function MyApp({
 }): ReactElement {
   return (
     <Provider {...initializeStore()}>
+      <NavMenu />
+      <NavButton />
       <Component {...pageProps} />
       <Footer />
     </Provider>

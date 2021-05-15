@@ -1,5 +1,5 @@
 .root {
-    @apply bg-primary h-24 md:h-28 pr-10
+    @apply bg-primary h-24 md:h-28 pr-6
     flex justify-end items-center
     text-sm;
 }
