@@ -1,3 +1,7 @@
 .title {
     @apply text-2xl sm:text-3xl md:text-4xl font-normal text-body mb-20 pl-6;
 }
+
+.anchor {
+    @apply absolute -top-3 sm:-top-2 xl:-top-8;
+}

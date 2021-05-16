@@ -4,10 +4,11 @@ import { ReactElement } from 'react';
 import List from '../../ui/List/List';
 import Accordion from '../../ui/Accordion/Accordion';
 import BodyText from '../../typography/BodyText/BodyText';
+import { SectionTitles } from '../../../constants/SectionTitles';
 
 function MainWork(): ReactElement {
   return (
-    <Section title="00. Work">
+    <Section title={SectionTitles.SECTION00}>
       <Accordion>
         <Accordion.Item>
           <Accordion.ItemHeader>

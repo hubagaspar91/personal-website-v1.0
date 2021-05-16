@@ -4,6 +4,8 @@ import classNames from 'classnames';
 import UIStore from '../../../stores/UIStore';
 import { inject, observer } from 'mobx-react';
 import Container from '../../layout/Container/Container';
+import slugify from 'slugify';
+import { SectionTitles } from '../../../constants/SectionTitles';
 
 function NavMenu({ UIStore }: { UIStore?: UIStore }): ReactElement {
   useEffect(() => {
@@ -13,6 +15,7 @@ function NavMenu({ UIStore }: { UIStore?: UIStore }): ReactElement {
       document.body.style.overflow = null;
     }
   }, [UIStore.mobileMenuOpen]);
+  const handleClick = () => UIStore.setMobileMenuOpen(false);
   return (
     <nav
       className={classNames(style.menu, {
@@ -21,9 +24,30 @@ function NavMenu({ UIStore }: { UIStore?: UIStore }): ReactElement {
     >
       <Container className={style.menuContainer}>
         <ul className={style.menuList}>
-          <li className={style.menuListItem}>00. Work</li>
-          <li className={style.menuListItem}>01. About</li>
-          <li className={style.menuListItem}>02. Contact</li>
+          <li className={style.menuListItem}>
+            <a
+              onClick={handleClick}
+              href={`#${slugify(SectionTitles.SECTION00)}`}
+            >
+              {SectionTitles.SECTION00}
+            </a>
+          </li>
+          <li className={style.menuListItem}>
+            <a
+              onClick={handleClick}
+              href={`#${slugify(SectionTitles.SECTION01)}`}
+            >
+              {SectionTitles.SECTION01}
+            </a>
+          </li>
+          <li className={style.menuListItem}>
+            <a
+              onClick={handleClick}
+              href={`#${slugify(SectionTitles.SECTION02)}`}
+            >
+              {SectionTitles.SECTION02}
+            </a>
+          </li>
         </ul>
       </Container>
     </nav>

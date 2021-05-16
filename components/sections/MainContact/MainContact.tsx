@@ -3,10 +3,11 @@ import Section from '../../layout/Section/Section';
 import BodyText from '../../typography/BodyText/BodyText';
 import style from './MainContact.module.css';
 import classNames from 'classnames';
+import { SectionTitles } from '../../../constants/SectionTitles';
 
 function MainContact(): ReactElement {
   return (
-    <Section className={style.root} title="02. Contact">
+    <Section className={style.root} title={SectionTitles.SECTION02}>
       <BodyText tag="div">
         <form action="">
           <input className={style.input} type="text" placeholder="Name" />

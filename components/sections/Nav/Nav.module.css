@@ -47,6 +47,11 @@
     list-none;
 }
 
+.menuListItem a {
+    @apply text-body;
+    text-decoration: none;
+}
+
 .menuListItem:not(:last-child) {
     @apply mb-12;
 }

@@ -2,10 +2,11 @@ import style from './MainAbout.module.css';
 import { ReactElement } from 'react';
 import Section from '../../layout/Section/Section';
 import BodyText from '../../typography/BodyText/BodyText';
+import { SectionTitles } from '../../../constants/SectionTitles';
 
 function MainAbout(): ReactElement {
   return (
-    <Section title="01. About">
+    <Section title={SectionTitles.SECTION01}>
       <BodyText tag="div" className={style.body}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at
