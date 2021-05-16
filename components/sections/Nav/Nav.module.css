@@ -1,19 +1,19 @@
 .root {
-    @apply fixed top-0 right-0 h-24 z-10;
+    @apply fixed top-0 right-0 z-10
+    h-24;
 }
 
 .button {
     @apply text-primary bg-black
-    px-6 h-24
+    px-6 h-12 md:h-16 xl:h-24 relative
     flex items-center justify-center;
 }
 
 .button:before {
     content: "Close";
-    @apply h-24 w-screen
-    fixed left-full top-0
-    bg-primary text-black
-    px-6
+    @apply bg-primary text-black
+    px-6 h-12 md:h-16 xl:h-24
+    fixed left-full top-0 w-screen
     flex justify-end items-center;
     transition: left 0.3s linear;
 }
@@ -27,7 +27,7 @@
     @apply fixed z-10
     w-screen h-screen
     top-0 left-full
-    bg-black;
+    bg-black px-6;
     transition: left 0.3s linear;
 }
 
@@ -36,8 +36,9 @@
 }
 
 .menuContainer {
-    @apply w-full h-full flex items-center
-    text-body text-5xl;
+    @apply w-full h-full
+    flex items-center
+    text-body text-2xl sm:text-5xl lg:text-5xl;
 }
 
 .menuList {
