@@ -19,6 +19,7 @@
 
 body {
   @apply bg-black;
+  cursor: none;
 }
 
 p:not(:last-child) {
@@ -27,6 +28,14 @@ p:not(:last-child) {
 
 a {
   @apply text-primary underline;
+}
+
+a, button, *[role='button'] {
+  cursor: none;
+}
+
+input, textarea {
+  cursor: none;
 }
 
 input:focus, textarea:focus, select:focus, button:focus {
