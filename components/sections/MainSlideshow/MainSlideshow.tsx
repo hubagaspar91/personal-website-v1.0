@@ -4,19 +4,81 @@ import utilsStyles from '../../../styles/utils.module.css';
 import InfiniteSlideshow from '../../misc/InfiniteSlideshow/InfiniteSlideshow';
 
 function MainSlideshow(): ReactElement {
-  const numbers = new Array(12);
   return (
     <div className={utilsStyles.section}>
       <InfiniteSlideshow>
-        {numbers.map((_, index) => (
-          <Image
-            key={index}
-            src={`/images/slide${index}.jpg`}
-            width={450}
-            height={600}
-            layout="responsive"
-          />
-        ))}
+        <Image
+          src="/images/slide0.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide1.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide2.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide3.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide4.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide5.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide6.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide7.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide8.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide9.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide10.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide11.jpg"
+          width={450}
+          height={600}
+          layout="responsive"
+        />
       </InfiniteSlideshow>
     </div>
   );
