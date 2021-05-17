@@ -9,8 +9,9 @@ import classNames from 'classnames';
 function MainHeader(): ReactElement {
   return (
     <div className={classNames(style.root, utilsStyle.section)}>
-      <video className={style.video} autoPlay muted loop>
+      <video className={style.video} autoPlay muted loop playsInline>
         <source src="/video.webm" type="video/webm" />
+        <source src="/video.mp4" type="video/mp4" />
       </video>
       <Container className={style.root}>
         <div className={style.content}>

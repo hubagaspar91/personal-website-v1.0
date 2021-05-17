@@ -9,11 +9,13 @@ import { SectionTitles } from '../../../constants/SectionTitles';
 
 function NavMenu({ UIStore }: { UIStore?: UIStore }): ReactElement {
   useEffect(() => {
-    if (UIStore.mobileMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = null;
-    }
+    setTimeout(() => {
+      if (UIStore.mobileMenuOpen) {
+        document.body.style.overflowY = 'hidden';
+      } else {
+        document.body.style.overflowY = null;
+      }
+    }, 600);
   }, [UIStore.mobileMenuOpen]);
   const handleClick = () => UIStore.setMobileMenuOpen(false);
   return (
