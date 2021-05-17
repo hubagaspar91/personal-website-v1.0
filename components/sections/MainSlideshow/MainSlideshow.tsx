@@ -7,18 +7,90 @@ function MainSlideshow(): ReactElement {
   return (
     <div className={utilsStyles.section}>
       <InfiniteSlideshow>
-        <Image src="/images/slide00.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide01.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide02.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide03.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide04.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide05.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide06.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide07.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide08.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide09.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide10.jpg" width={1536} height={2048} layout="responsive" />
-        <Image src="/images/slide11.jpg" width={1536} height={2048} layout="responsive" />
+        <Image
+          src="/images/slide00.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide01.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide02.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide03.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide04.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide05.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide06.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide07.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide08.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide09.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide10.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
+        <Image
+          src="/images/slide11.jpg"
+          width={1536}
+          height={2048}
+          sizes="(max-width: 768px) 200px, (max-width: 1024px) 400px, 600px"
+          layout="responsive"
+        />
       </InfiniteSlideshow>
     </div>
   );

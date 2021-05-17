@@ -15,6 +15,7 @@ function Lettuce(): ReactElement {
           src="/images/lettuce.jpg"
           width={1008}
           height={924}
+          sizes="(max-width: 768px) 500px, (max-width: 1024px) 700px, 1100px"
         />
       </div>
       <div className={style.titleContainer}>
