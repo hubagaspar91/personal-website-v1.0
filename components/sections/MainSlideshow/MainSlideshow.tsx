@@ -12,7 +12,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -20,7 +20,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -28,7 +28,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -36,7 +36,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -44,7 +44,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -52,7 +52,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -60,7 +60,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -68,7 +68,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -76,7 +76,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -84,7 +84,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -92,7 +92,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
         <Image
@@ -100,7 +100,7 @@ function MainSlideshow(): ReactElement {
           width={450}
           height={600}
           quality={65}
-          sizes="30vw"
+          sizes="20vw"
           layout="responsive"
         />
       </InfiniteSlideshow>
