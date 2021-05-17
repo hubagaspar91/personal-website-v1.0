@@ -16,6 +16,7 @@ function Lettuce(): ReactElement {
           width={545.46}
           height={500}
           quality={65}
+          layout="responsive"
         />
       </div>
       <div className={style.titleContainer}>
