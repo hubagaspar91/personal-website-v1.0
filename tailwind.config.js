@@ -8,13 +8,9 @@ module.exports = {
     colors: {
       primary: '#DC493D',
       body: '#C4C4C4',
-      black: '#000'
+      black: '#010101'
     },
-    extend: {
-      width: {
-        '1/10': '10%'
-      }
-    }
+    extend: {}
   },
   variants: {
     extend: {}
