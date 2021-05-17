@@ -22,7 +22,7 @@
 .submit {
     transition: color 0.3s linear;
     @apply text-black bg-primary px-6 py-1 h-72
-    flex items-start relative overflow-hidden;
+    flex flex-col items-start relative overflow-hidden;
 }
 
 .submit:before {
