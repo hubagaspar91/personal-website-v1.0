@@ -16,6 +16,7 @@ function Lettuce(): ReactElement {
           width={545.46}
           height={500}
           quality={65}
+          sizes="30vw"
           layout="responsive"
         />
       </div>
