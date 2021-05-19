@@ -7,6 +7,6 @@ enableStaticRendering(isServer);
 
 export default function initializeStore(): { UIStore: UIStore } {
   return {
-    UIStore: new UIStore(),
+    UIStore: new UIStore()
   };
 }

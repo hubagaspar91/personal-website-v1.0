@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { BrowserView } from 'react-device-detect';
 import { ReactElement } from 'react';
 import { Provider } from 'mobx-react';
 import initializeStore from '../stores';
@@ -18,7 +19,9 @@ function MyApp({
 }): ReactElement {
   return (
     <Provider {...initializeStore()}>
-      <Cursor />
+      <BrowserView>
+        <Cursor />
+      </BrowserView>
       <NavMenu />
       <NavButton />
       <Component {...pageProps} />

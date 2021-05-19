@@ -9,10 +9,21 @@ function MainContact(): ReactElement {
   return (
     <Section className={style.root} title={SectionTitles.SECTION02}>
       <BodyText tag="div">
-        <form action="">
-          <input className={style.input} type="text" placeholder="Name" />
-          <input className={style.input} type="text" placeholder="Email" />
+        <form name="contact" action="POST" data-netlify="true">
+          <input
+            className={style.input}
+            type="text"
+            name="name"
+            placeholder="Name"
+          />
+          <input
+            className={style.input}
+            type="text"
+            name="email"
+            placeholder="Email"
+          />
           <textarea
+            name="message"
             className={classNames(style.input, style.textarea)}
             placeholder="Message"
           />

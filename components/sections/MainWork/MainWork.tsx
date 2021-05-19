@@ -26,13 +26,13 @@ function MainWork(): ReactElement {
                 with mainly Swiss and German clients
               </li>
               <li>
-                Plan, implement and deploy internal and client projects
-                (webapps, websites)
+                Plan, implement and deploy internal and client projects (web
+                apps, websites)
               </li>
               <li>
                 Technologies used: <u>Vue</u>, <u>Nuxt</u>, <u>Webpack</u>,{' '}
                 <u>Jest</u>, <u>Tailwindcss</u>, <u>SCSS</u>, <u>Node</u>,{' '}
-                <u>Express</u>, <u>Mongodb</u>, <u>Postgres</u>,{' '}
+                <u>Express</u>, <u>MongoDB</u>, <u>Postgres</u>,{' '}
                 <u>Strapi CMS</u>, <u>Netlify</u>, <u>Docker</u>,{' '}
                 <u>docker-compose</u>, <u>Github actions</u>, etc.
               </li>
@@ -64,8 +64,8 @@ function MainWork(): ReactElement {
               </li>
               <li>
                 Technologies used: <u>Vue</u>, <u>Webpack</u>, <u>Typescript</u>
-                , <u>Jest</u>, <u>React</u>, <u>Wordpress</u>, <u>Magento 2</u>,{' '}
-                <u>Mysql</u>, <u>Mongodb</u>, <u>Python</u>, etc.
+                , <u>Jest</u>, <u>React</u>, <u>WordPress</u>, <u>Magento 2</u>,{' '}
+                <u>Mysql</u>, <u>MongoDB</u>, <u>Python</u>, etc.
               </li>
             </List>
           </Accordion.ItemBody>
@@ -87,16 +87,16 @@ function MainWork(): ReactElement {
               </li>
               <li>Frontend focus, with considerable backend work as well</li>
               <li>
-                Creating interfaces, tools and services for both internal
-                personnel (solution engineers) and end users
+                Creating interfaces, tools, and services for both internal
+                personnel (solution engineers) and end-users
               </li>
               <li>
                 Serve as a subject matter expert in the team, in specifying and
-                implementing integration related features, building on my
+                implementing integration-related features, building on my
                 previous experience as a solution engineer
               </li>
               <li>
-                I have extensively used the following frameworks, languages and
+                I have extensively used the following frameworks, languages, and
                 technologies: <u>Javascript</u>,{' '}
                 <u>Vue (Vue Router, Vuex, Vue-CLI)</u>, <u>SCSS</u>, <u>LESS</u>
                 , <u>Webpack</u>, <u>.NET Core</u>, <u>C#</u>, <u>Python</u>,{' '}
@@ -157,7 +157,7 @@ function MainWork(): ReactElement {
                 </a>
               </li>
               <li>
-                Technologies used: <u>Javascript</u>, <u>Python</u>, <u>bash</u>
+                Technologies used: <u>Javascript</u>, <u>Python</u>, <u>Bash</u>
                 , <u>SQL</u>
               </li>
               <li className={style.linkListElement}>

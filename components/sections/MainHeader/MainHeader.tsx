@@ -30,9 +30,9 @@ function MainHeader(): ReactElement {
             <span>Gaspar</span>
           </TitleMain>
           <BodyText className={style.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            accumsan fermentum velit, at ullamcorper felis tincidunt vitae. Duis
-            libero est, maximus eget ex id, vulputate sodales elit.
+            I am a creative full-stack developer based in Budapest with over 5
+            years of experience with modern web technologies and a relatively
+            newfound, child-like fascination with crypto.
           </BodyText>
         </div>
       </Container>
