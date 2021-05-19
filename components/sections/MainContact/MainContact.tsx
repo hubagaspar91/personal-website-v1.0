@@ -27,6 +27,7 @@ function MainContact(): ReactElement {
             className={classNames(style.input, style.textarea)}
             placeholder="Message"
           />
+          <input type="hidden" name="form-name" value="contact" />
           <button className={style.submit} type="submit">
             Submit
           </button>
