@@ -10,6 +10,7 @@ function MainContact(): ReactElement {
     <Section className={style.root} title={SectionTitles.SECTION02}>
       <BodyText tag="div">
         <form name="contact" action="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <input
             className={style.input}
             type="text"
@@ -27,7 +28,6 @@ function MainContact(): ReactElement {
             className={classNames(style.input, style.textarea)}
             placeholder="Message"
           />
-          <input type="hidden" name="form-name" value="contact" />
           <button className={style.submit} type="submit">
             Submit
           </button>
