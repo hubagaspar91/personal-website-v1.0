@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 function Container({
   children,
-  className,
+  className
 }: {
   children: any;
   className?: string;
