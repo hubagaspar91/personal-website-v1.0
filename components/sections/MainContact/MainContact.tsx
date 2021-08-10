@@ -19,7 +19,7 @@ function MainContact(): ReactElement {
           />
           <input
             className={style.input}
-            type="text"
+            type="email"
             name="email"
             placeholder="Email"
           />
