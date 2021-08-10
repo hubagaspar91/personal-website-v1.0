@@ -14,6 +14,29 @@ function MainWork(): ReactElement {
           <Accordion.ItemHeader>
             <div>
               <BodyText tag="div" className={style.accordionTitle}>
+                Freelance Developer
+              </BodyText>
+              <div className={style.accordionDate}>01.01.2016 - present</div>
+            </div>
+          </Accordion.ItemHeader>
+          <Accordion.ItemBody>
+            <List>
+              <li>
+                Over the years took part in an array of projects as a contractor
+              </li>
+              <li>
+                Technologies used: <u>Vue</u>, <u>React</u>, <u>Webpack</u>,{' '}
+                <u>Node.js</u>, <u>Typescript</u>, <u>Jest</u>, <u>PHP</u>,{' '}
+                <u>Magento 2</u>, <u>Mysql</u>, <u>MongoDB</u>, <u>Python</u>,
+                etc.
+              </li>
+            </List>
+          </Accordion.ItemBody>
+        </Accordion.Item>
+        <Accordion.Item>
+          <Accordion.ItemHeader>
+            <div>
+              <BodyText tag="div" className={style.accordionTitle}>
                 Full Stack Developer - Cleverclip
               </BodyText>
               <div className={style.accordionDate}>01.06.2020 - 28.05.2021</div>
@@ -44,28 +67,6 @@ function MainWork(): ReactElement {
                 >
                   cleverclipstudios.com
                 </a>
-              </li>
-            </List>
-          </Accordion.ItemBody>
-        </Accordion.Item>
-        <Accordion.Item>
-          <Accordion.ItemHeader>
-            <div>
-              <BodyText tag="div" className={style.accordionTitle}>
-                Freelance Developer
-              </BodyText>
-              <div className={style.accordionDate}>01.01.2016 - present</div>
-            </div>
-          </Accordion.ItemHeader>
-          <Accordion.ItemBody>
-            <List>
-              <li>
-                Over the years took part in an array of projects as a contractor
-              </li>
-              <li>
-                Technologies used: <u>Vue</u>, <u>Webpack</u>, <u>Typescript</u>
-                , <u>Jest</u>, <u>React</u>, <u>WordPress</u>, <u>Magento 2</u>,{' '}
-                <u>Mysql</u>, <u>MongoDB</u>, <u>Python</u>, etc.
               </li>
             </List>
           </Accordion.ItemBody>

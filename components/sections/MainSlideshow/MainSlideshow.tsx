@@ -3,106 +3,29 @@ import { ReactElement } from 'react';
 import utilsStyles from '../../../styles/utils.module.css';
 import InfiniteSlideshow from '../../misc/InfiniteSlideshow/InfiniteSlideshow';
 
-function MainSlideshow(): ReactElement {
+export type MainSlideShowProps = {
+  slidePlaceholders: string[];
+};
+
+function MainSlideshow({
+  slidePlaceholders
+}: MainSlideShowProps): ReactElement {
   return (
     <div className={utilsStyles.section}>
       <InfiniteSlideshow>
-        <Image
-          src="/images/slide0.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide1.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide2.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide3.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide4.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide5.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide6.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide7.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide8.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide9.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide10.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
-        <Image
-          src="/images/slide11.jpg"
-          width={450}
-          height={600}
-          quality={65}
-          sizes="20vw"
-          layout="responsive"
-        />
+        {Array.from({ length: 12 }, (v, i) => i).map((i) => (
+          <Image
+            key={i}
+            src={`/images/slide${i}.jpg`}
+            width={450}
+            height={600}
+            quality={65}
+            sizes="20vw"
+            layout="responsive"
+            placeholder="blur"
+            blurDataURL={slidePlaceholders[i]}
+          />
+        ))}
       </InfiniteSlideshow>
     </div>
   );

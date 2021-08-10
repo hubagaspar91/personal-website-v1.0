@@ -6,8 +6,31 @@ import Lettuce from '../components/misc/Lettuce/Lettuce';
 import MainAbout from '../components/sections/MainAbout/MainAbout';
 import MainSlideshow from '../components/sections/MainSlideshow/MainSlideshow';
 import MainContact from '../components/sections/MainContact/MainContact';
+import { getPlaiceholder } from 'plaiceholder';
 
-export default function Home(): ReactElement {
+export type HomeProps = {
+  slidePlaceholders: string[];
+};
+
+export const getStaticProps = async (): Promise<{
+  props: HomeProps;
+}> => {
+  const _slidePlaceholders = await Promise.all(
+    Array.from({ length: 12 }, (v, i) => i).map((i) =>
+      getPlaiceholder(`/images/slide${i}.jpg`)
+    )
+  );
+
+  const slidePlaceholders = _slidePlaceholders.map(({ base64 }) => base64);
+
+  return {
+    props: {
+      slidePlaceholders
+    }
+  };
+};
+
+export default function Home({ slidePlaceholders }: HomeProps): ReactElement {
   return (
     <div>
       <Head>
@@ -34,7 +57,7 @@ export default function Home(): ReactElement {
       <MainWork />
       <Lettuce />
       <MainAbout />
-      <MainSlideshow />
+      <MainSlideshow slidePlaceholders={slidePlaceholders} />
       <MainContact />
     </div>
   );

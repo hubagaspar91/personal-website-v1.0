@@ -18,8 +18,8 @@ function MainAbout(): ReactElement {
         <p>
           I am a frontend-leaning full-stack developer, specializing mainly in
           Javascript and Typescript. I am a big fan of SSR/SSG frameworks such
-          as Next.js and Nuxt.js and recently started to get acquainted with
-          blockchain tech (Solidity, Web3, etc.).
+          as Next.js and Nuxt.js and also an adept user of the Ethereum stack
+          (Solidity, Web3, Ethers.js, Hardhat, etc.).
         </p>
         <p>
           After looking at screens for 8+ hours a day, I like to spend my free

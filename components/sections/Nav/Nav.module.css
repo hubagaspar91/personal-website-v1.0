@@ -13,13 +13,12 @@
     content: "Close";
     @apply bg-primary text-black
     px-6 h-12 md:h-16 xl:h-24
-    fixed left-full top-0 w-screen
+    fixed -left-full top-0 w-screen
     flex justify-end items-center;
     transition: left 0.3s linear;
 }
 
 .button__clicked:before {
-    transition-delay: 0.3s;
     @apply left-0;
 }
 
