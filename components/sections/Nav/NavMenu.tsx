@@ -11,9 +11,9 @@ function NavMenu({ UIStore }: { UIStore?: UIStore }): ReactElement {
   useEffect(() => {
     setTimeout(() => {
       if (UIStore.mobileMenuOpen) {
-        document.body.style.overflowY = 'hidden';
+        document.body.style.overflow = 'hidden';
       } else {
-        document.body.style.overflowY = null;
+        document.body.style.overflow = null;
       }
     }, 600);
   }, [UIStore.mobileMenuOpen]);
