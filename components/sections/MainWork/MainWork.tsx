@@ -14,9 +14,58 @@ function MainWork(): ReactElement {
           <Accordion.ItemHeader>
             <div>
               <BodyText tag="div" className={style.accordionTitle}>
+                Tech Lead, Co-Founder - Omnimorphs
+              </BodyText>
+              <div className={style.accordionDate}>04.2021 - present</div>
+            </div>
+          </Accordion.ItemHeader>
+          <Accordion.ItemBody>
+            <List>
+              <li>
+                Co-founded an NFT collectible project based on the work of
+                digital artist{' '}
+                <a
+                  target="_blank"
+                  href="https://twitter.com/DanielTaylorArt"
+                  rel="noreferrer"
+                >
+                  Daniel Taylor
+                </a>
+              </li>
+              <li>
+                Architected and implemented an array of EVM dApps, such as a
+                successful, highly anticipated NFT drop, a unique, gamified NFT
+                customization tool, and much more
+              </li>
+              <li>
+                Wrote a suite of smart contracts with extensive unit testing and
+                third-party security audits
+              </li>
+              <li>
+                Technologies used: <u>Solidity</u>, <u>Hardhat</u>,{' '}
+                <u>Node.js</u>, <u>TypeScript</u>, <u>Web3.js</u>,{' '}
+                <u>Ethers.js</u>, <u>React</u>, <u>Next.js</u>, <u>MongoDB</u>,{' '}
+                <u>Netlify</u>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://omnimorphs.com"
+                  rel="noreferrer"
+                >
+                  omnimorphs.com
+                </a>
+              </li>
+            </List>
+          </Accordion.ItemBody>
+        </Accordion.Item>
+        <Accordion.Item>
+          <Accordion.ItemHeader>
+            <div>
+              <BodyText tag="div" className={style.accordionTitle}>
                 Freelance Developer
               </BodyText>
-              <div className={style.accordionDate}>01.01.2016 - present</div>
+              <div className={style.accordionDate}>01.2016 - present</div>
             </div>
           </Accordion.ItemHeader>
           <Accordion.ItemBody>
@@ -25,10 +74,13 @@ function MainWork(): ReactElement {
                 Over the years took part in an array of projects as a contractor
               </li>
               <li>
-                Technologies used: <u>Vue</u>, <u>React</u>, <u>Webpack</u>,{' '}
-                <u>Node.js</u>, <u>Typescript</u>, <u>Jest</u>, <u>PHP</u>,{' '}
-                <u>Magento 2</u>, <u>Mysql</u>, <u>MongoDB</u>, <u>Python</u>,
-                etc.
+                Advised and created smart contracts for multiple dApp projects
+              </li>
+              <li>
+                Technologies used: <u>Solidity</u>, <u>Hardhat</u>, <u>Vue</u>,{' '}
+                <u>React</u>, <u>Webpack</u>, <u>Node.js</u>, <u>Typescript</u>,{' '}
+                <u>Jest</u>, <u>PHP</u>, <u>Magento 2</u>, <u>Mysql</u>,{' '}
+                <u>MongoDB</u>, <u>Python</u>, etc.
               </li>
             </List>
           </Accordion.ItemBody>
@@ -39,7 +91,7 @@ function MainWork(): ReactElement {
               <BodyText tag="div" className={style.accordionTitle}>
                 Full Stack Developer - Cleverclip
               </BodyText>
-              <div className={style.accordionDate}>01.06.2020 - 28.05.2021</div>
+              <div className={style.accordionDate}>06.2020 - 05.2021</div>
             </div>
           </Accordion.ItemHeader>
           <Accordion.ItemBody>
@@ -77,7 +129,7 @@ function MainWork(): ReactElement {
               <BodyText tag="div" className={style.accordionTitle}>
                 Full Stack Developer - Yusp
               </BodyText>
-              <div className={style.accordionDate}>01.03.2019 - 01.04.2020</div>
+              <div className={style.accordionDate}>03.2019 - 04.2020</div>
             </div>
           </Accordion.ItemHeader>
           <Accordion.ItemBody>
@@ -121,7 +173,7 @@ function MainWork(): ReactElement {
               <BodyText tag="div" className={style.accordionTitle}>
                 Solution Engineer - Yusp
               </BodyText>
-              <div className={style.accordionDate}>01.03.2017 - 01.03.2019</div>
+              <div className={style.accordionDate}>03.2017 - 03.2019</div>
             </div>
           </Accordion.ItemHeader>
           <Accordion.ItemBody>
@@ -151,7 +203,7 @@ function MainWork(): ReactElement {
                 During this time (and since then too), Hotstar broke{' '}
                 <a
                   target="_blank"
-                  href="https://techcrunch.com/2019/05/12/hotstar-disneys-indian-streaming-service-sets-new-global-record-for-live-viewership/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAID4AlxMgNXscF5F4aryrokn2fE0GQZ6QKSoOGpjUbocyaeLJk45j-Qv3p2xWDfiAlSTz8XKF-ksZekPo3vWnticcT9P8ueLNh0TTH3sURwtdIzEl7bNSoFt3jE0UQfdATSYd8_OkfGLKYMkN0jqqDSIFZ-ebB64lCvcjROu6nrw"
+                  href="https://techcrunch.com/2019/05/12/hotstar-disneys-indian-streaming-service-sets-new-global-record-for-live-viewership"
                   rel="noreferrer"
                 >
                   several online streaming world records

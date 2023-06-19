@@ -30,9 +30,9 @@ function MainHeader(): ReactElement {
             <span>Gaspar</span>
           </TitleMain>
           <BodyText className={style.description}>
-            I am a creative full-stack developer based in Budapest with over 6
-            years of experience with modern web technologies and a child-like
-            fascination with crypto.
+            I am a full stack developer based in Budapest with over 7 years of
+            experience with modern web technologies and over 2 years of
+            experience in EVM dApp development.
           </BodyText>
         </div>
       </Container>
