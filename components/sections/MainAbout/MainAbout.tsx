@@ -16,10 +16,11 @@ function MainAbout(): ReactElement {
           practicing or learning about this one activity.
         </p>
         <p>
-          I am a frontend-leaning full-stack developer, specializing mainly in
-          Javascript and Typescript. I am a big fan of SSR/SSG frameworks such
-          as Next.js and Nuxt.js and also an adept user of the Ethereum stack
-          (Solidity, Web3, Ethers.js, Hardhat, etc.).
+          I am a full-stack developer with extensive experience in creating
+          complex web applications. On top of a strong technical skillset, I
+          have an affinity for translating business requirements into technical
+          solutions and clearly articulating and documenting my work and ideas.
+          I am mainly active in the web3/EVM ecosystem for the past ~2 years.
         </p>
         <p>
           After looking at screens for 8+ hours a day, I like to spend my free
