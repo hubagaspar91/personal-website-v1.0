@@ -1,10 +1,10 @@
-import style from './MainHeader.module.css';
-import utilsStyle from '../../../styles/utils.module.css';
-import TitleMain from '../../typography/TitleMain/TitleMain';
+import classNames from 'classnames';
 import { ReactElement } from 'react';
+import utilsStyle from '../../../styles/utils.module.css';
 import Container from '../../layout/Container/Container';
 import BodyText from '../../typography/BodyText/BodyText';
-import classNames from 'classnames';
+import TitleMain from '../../typography/TitleMain/TitleMain';
+import style from './MainHeader.module.css';
 
 function MainHeader(): ReactElement {
   return (
@@ -30,9 +30,9 @@ function MainHeader(): ReactElement {
             <span>Gaspar</span>
           </TitleMain>
           <BodyText className={style.description}>
-            I am a full stack developer based in Budapest with over 7 years of
-            experience with modern web technologies and over 2 years of
-            experience in EVM dApp development.
+            I am a full-stack developer based in Budapest with 9 years of
+            experience with modern web technologies, specializing in Web3/EVM
+            dApp development for the past 4 years.
           </BodyText>
         </div>
       </Container>

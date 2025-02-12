@@ -1,8 +1,8 @@
-import style from './MainAbout.module.css';
 import { ReactElement } from 'react';
+import { SectionTitles } from '../../../constants/SectionTitles';
 import Section from '../../layout/Section/Section';
 import BodyText from '../../typography/BodyText/BodyText';
-import { SectionTitles } from '../../../constants/SectionTitles';
+import style from './MainAbout.module.css';
 
 function MainAbout(): ReactElement {
   return (
@@ -20,7 +20,7 @@ function MainAbout(): ReactElement {
           complex web applications. On top of a strong technical skillset, I
           have an affinity for translating business requirements into technical
           solutions and clearly articulating and documenting my work and ideas.
-          I am mainly active in the web3/EVM ecosystem for the past ~2 years.
+          I am mainly active in the web3/EVM ecosystem for the past 4 years.
         </p>
         <p>
           After looking at screens for 8+ hours a day, I like to spend my free

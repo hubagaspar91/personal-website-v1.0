@@ -1,15 +1,54 @@
-import style from './MainWork.module.css';
-import Section from '../../layout/Section/Section';
 import { ReactElement } from 'react';
-import List from '../../ui/List/List';
-import Accordion from '../../ui/Accordion/Accordion';
-import BodyText from '../../typography/BodyText/BodyText';
 import { SectionTitles } from '../../../constants/SectionTitles';
+import Section from '../../layout/Section/Section';
+import BodyText from '../../typography/BodyText/BodyText';
+import Accordion from '../../ui/Accordion/Accordion';
+import List from '../../ui/List/List';
+import style from './MainWork.module.css';
 
 function MainWork(): ReactElement {
   return (
     <Section title={SectionTitles.SECTION00}>
       <Accordion>
+        <Accordion.Item>
+          <Accordion.ItemHeader>
+            <div>
+              <BodyText tag="div" className={style.accordionTitle}>
+                Senior Full Stack Developer - L1.co
+              </BodyText>
+              <div className={style.accordionDate}>09.2023 - present</div>
+            </div>
+          </Accordion.ItemHeader>
+          <Accordion.ItemBody>
+            <List>
+              <li>
+                Working in a senior engineering role in an early-stage startup,
+                developing a platform that enables finanical advisors to manage
+                their clients{"'"} portfolios in a non-custodial,
+                non-discretionary manner
+              </li>
+              <li>
+                My work focuses on wallet integrations and the transactions
+                execution abstraction layer of the platform
+              </li>
+              <li>
+                I have also implemented an embedded Safe multisig wallet
+                enabling user to sign their multisig transactions without
+                leaving the site
+              </li>
+              <li>
+                Technologies used: <u>React</u>, <u>Next.js</u>,{' '}
+                <u>Typescript</u>, <u>Google Cloud</u>, <u>Firebase</u>,{' '}
+                <u>Vercel</u>, <u>Wagmi</u>, <u>RainbowKit</u>, <u>Safe</u>
+              </li>
+              <li>
+                <a target="_blank" href="https://l1.co" rel="noreferrer">
+                  l1.co
+                </a>
+              </li>
+            </List>
+          </Accordion.ItemBody>
+        </Accordion.Item>
         <Accordion.Item>
           <Accordion.ItemHeader>
             <div>
