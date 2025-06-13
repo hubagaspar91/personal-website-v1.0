@@ -29,7 +29,8 @@ function MainWork(): ReactElement {
               </li>
               <li>
                 My work focuses on wallet integrations and the transactions
-                execution abstraction layer of the platform
+                execution abstraction layer of the platform, both on the
+                frontend and backend
               </li>
               <li>
                 I have also implemented an embedded Safe multisig wallet
@@ -37,9 +38,10 @@ function MainWork(): ReactElement {
                 leaving the site
               </li>
               <li>
-                Technologies used: <u>React</u>, <u>Next.js</u>,{' '}
-                <u>Typescript</u>, <u>Google Cloud</u>, <u>Firebase</u>,{' '}
-                <u>Vercel</u>, <u>Wagmi</u>, <u>RainbowKit</u>, <u>Safe</u>
+                Technologies used: <u>Typescript</u>, <u>React</u>,{' '}
+                <u>Next.js</u>, <u>Node.js</u>, <u>Postgres</u>, <u>GCP</u>,{' '}
+                <u>GitHub Actions</u>, <u>Vercel</u>, <u>Wagmi</u>,{' '}
+                <u>Ethers.js</u>, <u>RainbowKit</u>, <u>Safe</u>
               </li>
               <li>
                 <a target="_blank" href="https://l1.co" rel="noreferrer">
