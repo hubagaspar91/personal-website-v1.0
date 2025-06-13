@@ -38,6 +38,10 @@ function MainWork(): ReactElement {
                 leaving the site
               </li>
               <li>
+                My work involves creating & maintaining unit, integration and
+                end-to-end test suites
+              </li>
+              <li>
                 Technologies used: <u>Typescript</u>, <u>React</u>,{' '}
                 <u>Next.js</u>, <u>Node.js</u>, <u>Postgres</u>, <u>GCP</u>,{' '}
                 <u>GitHub Actions</u>, <u>Vercel</u>, <u>Wagmi</u>,{' '}
@@ -143,7 +147,7 @@ function MainWork(): ReactElement {
               </li>
               <li>
                 Plan, implement and deploy internal and client projects (web
-                apps, websites)
+                apps, websites, REST APIs, etc.)
               </li>
               <li>
                 Technologies used: <u>Vue</u>, <u>Nuxt</u>, <u>Webpack</u>,{' '}
