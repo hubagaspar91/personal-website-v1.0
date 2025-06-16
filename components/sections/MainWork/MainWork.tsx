@@ -38,7 +38,7 @@ function MainWork(): ReactElement {
                 leaving the site
               </li>
               <li>
-                My work involves creating & maintaining unit, integration and
+                My work involves creating & maintaining unit, integration and
                 end-to-end test suites
               </li>
               <li>
@@ -183,7 +183,6 @@ function MainWork(): ReactElement {
                 Global machine learning solutions and recommendation engine
                 vendor
               </li>
-              <li>Frontend focus, with considerable backend work as well</li>
               <li>
                 Creating interfaces, tools, and services for both internal
                 personnel (solution engineers) and end-users
