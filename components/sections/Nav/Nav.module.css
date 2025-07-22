@@ -13,7 +13,7 @@
     content: "Close";
     @apply bg-primary text-black
     px-6 h-12 md:h-16 xl:h-24
-    fixed -left-full top-0 w-screen
+    fixed -left-screen top-0 w-screen
     flex justify-end items-center;
     transition: left 0.3s linear;
 }

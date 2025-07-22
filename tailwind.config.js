@@ -10,7 +10,11 @@ module.exports = {
       body: '#C4C4C4',
       black: '#010101'
     },
-    extend: {}
+    extend: {
+      spacing: {
+        screen: '100vw'
+      }
+    }
   },
   variants: {
     extend: {}
