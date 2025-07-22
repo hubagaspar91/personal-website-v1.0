@@ -22,9 +22,9 @@ function MainWork(): ReactElement {
           <Accordion.ItemBody>
             <List>
               <li>
-                Working in a senior engineering role in an early-stage startup,
-                developing a platform that enables finanical advisors to manage
-                their clients{"'"} portfolios in a non-custodial,
+                US-based DeFi aggregator platform geared towards institutional
+                and TradFi clients. We enable finanical advisors to manage their
+                clients{"'"} crypto portfolios in a non-custodial,
                 non-discretionary manner
               </li>
               <li>
@@ -33,13 +33,13 @@ function MainWork(): ReactElement {
                 frontend and backend
               </li>
               <li>
-                I have also implemented an embedded Safe multisig wallet
-                enabling user to sign their multisig transactions without
-                leaving the site
+                I have also implemented account-abstracted flows for Safe
+                multisig wallets, with gas-sponsorship, transaction batching,
+                etc.
               </li>
               <li>
                 My work involves creating & maintaining unit, integration and
-                end-to-end test suites
+                end-to-end test suites on both the frontend and backend
               </li>
               <li>
                 Technologies used: <u>Typescript</u>, <u>React</u>,{' '}
